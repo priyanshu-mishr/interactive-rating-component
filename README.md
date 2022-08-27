@@ -33,9 +33,7 @@ Users should be able to:
 
 - Mobile View
 
-![](Screenshot/Mobile-view.png)
-
-![](Screenshot/Mobile-view2.png)
+![](Screenshot/Mobile-view.png)  ![](Screenshot/Mobile-view2.png)
 
 ### Links
 
