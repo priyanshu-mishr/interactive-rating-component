@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "overpass", cursive;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#rating-state,
+#thanks-state {
+    background: linear-gradient(hsl(217, 16%, 16%), hsl(215, 27%, 12%));
+    max-width: 22rem;
+    padding: 1.7rem;
+    border-radius: 1.5rem;
+}
+
+.vanish {
+    display: none;
+}
+
+.star-img {
+    background-color: hsl(214, 19%, 22%);
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rating-state h1 {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    margin: 1.6rem 0 0.5rem;
+    font-weight: 700;
+}
+
+#rating-state p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin-bottom: 1.6rem;
+}
+
+.rating-points {
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 2.6rem;
+    height: 2.6rem;
+    background-color: hsl(214, 19%, 22%);
+    border: none;
+    border-radius: 50%;
+    font: inherit;
+    color: inherit;
+    padding-top: 0.2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+.btn:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 0.8rem 0 0.7rem;
+    border: none;
+    border-radius: 3rem;
+    font-family: inherit;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+#thanks-state img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 0.5rem;
+}
+
+.score {
+    text-align: center;
+    font-size: 0.8rem;
+    color: hsl(25, 97%, 53%);
+    margin: 2rem auto;
+    background-color: hsl(215, 17%, 25%);
+    width: 11rem;
+    height: 1.7rem;
+    line-height: 1.9rem;
+    border-radius: 3rem;
+}
+
+#thanks-state h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+
+.end-text {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    margin-bottom: 0.7rem;
+}
+
+@media (max-width: 376px) {
+
+    #rating-state,
+    #thanks-state {
+        max-width: 20rem;
+        border-radius: 1rem;
+    }
+}
