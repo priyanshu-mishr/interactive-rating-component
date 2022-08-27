@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/priyanshu-mishr/interactive-rating-component.git
 - Live Site URL: https://priyanshu-mishr.github.io/interactive-rating-component/
 
 ## My process
@@ -55,4 +55,6 @@ Users should be able to:
 
 - [Google Fonts](https://fonts.google.com/) 
 
+## Author
 
+Frontend Mentor - [@priyanshu-mishr](https://www.frontendmentor.io/profile/priyanshu-mishr)
